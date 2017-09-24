@@ -1,8 +1,166 @@
-.App{
-	text-align: center;
-	font-size: 35px;
-	margin-top: 20%;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.App {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20%;
 }
-.App-title{
-	font-size: 24px;
+
+.App-title {
+  font-size: 24px;
+}
+
+
+.main-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+.account-container .title {
+  font-size: 36px;
+  line-height: 2.0;
+}
+
+.margin-tb {
+  margin: 20px 0;
+  margin-bottom: 0;
+}
+
+.header-strip {
+  height: 120px;
+  background: #000;
+}
+
+.img-card {
+  float: right;
+  width: 140px;
+  padding: 15px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.style-box {
+  color: white;
+    padding: 25px;
+    line-height: 1.2;
+}
+
+.ribbon {
+  position: relative;
+  background: #5d5d5d;
+  height: 92px;
+  width: 90px;
+  margin: 0 20px;
+  z-index: 1;
+  /*-moz-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5) inset;*/
+  float: left;
+  color: #fff;
+}
+.ribbon:before, .ribbon:after {
+  content: '';
+  position: absolute;
+  border-bottom: 60px solid #5d5d5d;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  top: 50px;
+  left: -31px;
+  -moz-transform: rotate(-140deg);
+  -ms-transform: rotate(-140deg);
+  -webkit-transform: rotate(-140deg);
+  transform: rotate(-140deg);
+  z-index: 0;
+}
+.ribbon:after {
+  left: auto;
+  right: -31px;
+  -moz-transform: rotate(140deg);
+  -ms-transform: rotate(140deg);
+  -webkit-transform: rotate(140deg);
+  transform: rotate(140deg);
+}
+.ribbon ul {
+  margin: 0;
+  padding: 40px 0 0 0;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+.ribbon ul li {
+  display: inline;
+  font-size: 11px;
+  color: #F56550;
+}
+.ribbon ul li a {
+  color: #F56550;
+  font-size: 12px;
+  text-decoration: none;
+}
+.ribbon ul li a:hover {
+  color: #fde4e1;
+}
+
+
+
+.absol-data{
+	position: absolute;
+    line-height: 1.5;
+    z-index: 9;
+    top: 20px;
+    left: 8px;
+    text-align: center;
+}
+
+.txt-36{
+	 font-size: 36px;
+}
+
+.txt-26{
+	font-size: 26px;
+}
+.cardBox .box-img{
+height: 130px;
+background: grey;
+}
+
+.card-content .title-card{
+	font-size: 20px;
+	    margin: 10px 0;
+}
+
+.btn-card{
+	border: 0;
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 100%;
+    background: grey;
+    color: #fff;
+}
+
+.card-container{
+	margin-top: 70px;
+	display: flex;
+}
+
+.cardBox{
+	padding: 0 22px;
+
+}
+
+.box-img{
+	background-image: url('./iconsimg.png');
 }

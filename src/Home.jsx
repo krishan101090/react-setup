@@ -1,19 +1,23 @@
 import React,{Component} from 'react';
 import './App.css'
-import App from './App';
-import Click from './Click';
-import Link from './Link.react';
-import Welcome from './Welcome'
+import MyAccount from './MyAccount';
+
+
+
 class Home extends Component{
 	render(){
 	return(
-			<div>
-				<div>Hello world</div>
+			<div className="main-container">
+				
+
+				<MyAccount />
+				{/* 
 				<Welcome />
 				<h1>hello</h1>
 				<Click/>
 				<App/>
 				< Link page = "http://www.facebook.com" > Facebook < /Link>
+				*/}
 			</div>
 		)
 	}
