@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Welcome (Snapshot) Welcome renders  1`] = `
+<div>
+  Hi Hello React
+</div>
+`;
+
 exports[`Welcome (Snapshot) Welcome renders hello world 1`] = `
 <div>
   Hi Hello React

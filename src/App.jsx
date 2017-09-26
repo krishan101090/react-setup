@@ -14,6 +14,11 @@ class App extends Component{
 		// console.log("state",this.state);
 		this.setState({deadline:this.state.newDeadline});
 	}
+	changeDeadline(){
+		//this.setState({deadline:'November 25, 2017'})
+		//console.log("state", this.state);
+		this.setState({deadline:this.stat.new })
+	}
 	render(){
 		return(
 		<div className="App">
