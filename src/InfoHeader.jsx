@@ -2,23 +2,22 @@ import React,{Component} from 'react';
 import './App.css'
 
 class InfoHeader extends Component{
+	//Defining States
 	constructor(){
 		super();
 		this.state={
 			data:'',
 		}
 	}
-
+	// This will resolve the data and function invoked before render() Method
 	componentDidMount(){
-		console.log("hwllo");
 		fetch('dummyData.json').then((Response) => Response.json()).then((findresponse) =>
 		{
-			console.log(findresponse);
+			//setting Json data to state
 			this.setState({
 				data: findresponse,
 			})
 		})
-
 	}
 	render(){
 	return(
